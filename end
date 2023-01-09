@@ -1,0 +1,48 @@
+[33mcommit 844af327351a1be1171fc212a1dcc81e0c2382fa[m[33m ([m[1;36mHEAD -> [m[1;32mfeature/profileimages[m[33m, [m[1;32mmain[m[33m)[m
+Author: Discoveren <renniel.pena@gmail.com>
+Date:   Mon Jan 9 14:30:44 2023 +0000
+
+    Added profile and skills images
+
+[33mcommit d634cbeb2df9941c19b96e6fb9415c2c967f41d0[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 6bb6097 aef12b0
+Author: Discoveren <115669461+Discoveren@users.noreply.github.com>
+Date:   Mon Jan 9 12:36:36 2023 +0000
+
+    Merge pull request #2 from Discoveren/feature/starter
+    
+    Feature/starter
+
+[33mcommit aef12b06961faa50d71afd979c05eb14f5342f68[m[33m ([m[1;31morigin/feature/starter[m[33m, [m[1;32mfeature/starter[m[33m)[m
+Merge: 7bfcf80 6bb6097
+Author: Discoveren <renniel.pena@gmail.com>
+Date:   Mon Jan 9 12:35:48 2023 +0000
+
+    Merge branch 'main' of github.com:Discoveren/Porfolio-udemy-practice into feature/starter
+
+[33mcommit 7bfcf80155478fc614c7cddc8d4699099795e1ac[m
+Author: Discoveren <renniel.pena@gmail.com>
+Date:   Mon Jan 9 12:35:39 2023 +0000
+
+    Assigned fonts for different section of the website
+
+[33mcommit 6bb6097409a5fdbc4a87aad25a43c2677aa5746d[m
+Merge: e004ed8 b8c32bc
+Author: Discoveren <115669461+Discoveren@users.noreply.github.com>
+Date:   Mon Jan 9 11:07:00 2023 +0000
+
+    Merge pull request #1 from Discoveren/feature/starter
+    
+    Added base HTML and CSS for the images
+
+[33mcommit b8c32bc5e173287c24f2176f5a366f0a7fd959c9[m
+Author: Discoveren <renniel.pena@gmail.com>
+Date:   Mon Jan 9 11:06:03 2023 +0000
+
+    Added base HTML and CSS for the images
+
+[33mcommit e004ed850b4274b063d763c484837553a0e18977[m
+Author: Discoveren <115669461+Discoveren@users.noreply.github.com>
+Date:   Mon Jan 9 10:49:46 2023 +0000
+
+    Initial commit
