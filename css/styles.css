@@ -1,3 +1,7 @@
+:root{
+    --primary-color:#B1B2FF; 
+}
+
 body {
     margin: 0;
     text-align: center;
@@ -16,21 +20,19 @@ h2, h3 {
  
 
 .top-container {
-    background-color: #B1B2FF;
+    background-color: var(--primary-color);
     padding-top: 100px;
     position: relative;
 }
 
 .middle-container {
-    height:200px;
-    width:200px;
-    background-color:red;
+    background-color: var(--primary-color);
+
 }
 
 .bottom-container {
-    height:200px;
-    width:200px;
-    background-color:blue;
+    background-color: var(--primary-color);
+  
 }
 
 .pro {
@@ -47,4 +49,11 @@ h2, h3 {
     position: absolute;
     left: 300px;
     bottom: 300px;
+}
+
+.profilePic {
+    width: 150px;
+    height: 150px;
+    object-fit: scale-down;
+    margin-top: 20px;
 }
