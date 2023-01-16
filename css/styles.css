@@ -1,23 +1,75 @@
 :root{
     --primary-color:#B1B2FF; 
+    --text-color: #6C4AB6;
+    --p-text-color: #8D72E1;
 }
 
 body {
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
+
 }
-
-h1 {
-   margin-top: 0;
-   font-family: 'Sacramento', cursive;
-}
-
-
-h2, h3 {
-    font-family: 'Montserrat', sans-serif;
- }
  
+h1 {
+    color: var(--text-color);
+    font-size: 5.625rem;
+    font-family: 'Sacramento', cursive;
+   margin: 50px auto 0 auto;
+}
+
+
+h2 {
+    color: var(--text-color);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+}
+
+h2 p {
+    line-height: ;
+}
+
+h3 {
+    color: var(--p-text-color);
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    border-style:none;
+    border-top-style:dotted;
+    border-color: grey;
+    border-width: 6px;
+    width:5%;
+}
+
+a {
+    color: var(--p-text-color);
+}
+
+/*************class selector**********/
+
+.brief-intro{
+    padding:30px;
+}
+.skill-row {
+    margin: 100px auto;
+    line-height: 2;
+    text-align: left;
+    width: 50%;
+ }
+
+ .design-img {
+    width:25%;
+    float:left;
+    margin-right: 30px;
+ }
+
+ .keyboard-img {
+    width:25%;
+    float:right;
+    margin-left: 30px;
+ }
+
 
 .top-container {
     background-color: var(--primary-color);
@@ -26,18 +78,19 @@ h2, h3 {
 }
 
 .middle-container {
-    background-color: var(--primary-color);
+
 
 }
 
 .bottom-container {
-    background-color: var(--primary-color);
-  
 }
 
 .pro {
     text-decoration: underline;
+    color: var(--text-color);
 }
+
+
 
 .top-cloud {
     position:absolute;
@@ -51,9 +104,17 @@ h2, h3 {
     bottom: 300px;
 }
 
+
 .profilePic {
     width: 150px;
     height: 150px;
     object-fit: scale-down;
     margin-top: 20px;
 }
+
+.mountain {
+ 
+}
+/* .middle-container, .bottom-container{
+    background-color: white;
+} */
